@@ -6,7 +6,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("=== KALKULATOR BANGUN RUANG ===");
+        System.out.println("==================================");
+        System.out.println("     KALKULATOR BANGUN RUANG");
+        System.out.println("==================================");
+
         System.out.println("1. Kubus");
         System.out.println("2. Balok");
         System.out.println("3. Tabung");
@@ -46,6 +49,10 @@ public class Main {
         } else {
             System.out.println("Pilihan tidak tersedia!");
         }
+
+        System.out.println("\n==================================");
+        System.out.println("       PERHITUNGAN SELESAI");
+        System.out.println("====================================");
         
         input.close();
     }
